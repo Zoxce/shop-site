@@ -538,7 +538,6 @@ body {
 
 /* main section */
 .categories {
-    min-height: 100vh;
     padding-top: 125px;
 }
 
@@ -564,12 +563,13 @@ body {
     width: 552px;
     height: 100%;
     background: url(../img/image-5.png) no-repeat;
+    position: relative;
 }
 
 .category-btn-item {
-    padding-top: 515px;
-    padding-left: 25px;
-    margin: 0 auto;
+    position: absolute;
+    bottom: 58px;
+    left: 25px;
 }
 
 .category-btn {
@@ -584,6 +584,38 @@ body {
 
 .category-btn:hover {
     background: #dadada;
+}
+
+/* fashion's women catalog */
+.women-fashion {
+    padding-top: 100px;
+}
+
+.fashion-container {
+    text-align: center;
+}
+
+.fashion-container h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.fashion-container p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.women-catalog {
+    padding-top: 65px;
+}
+
+.women-items {
+    display: flex;
+    justify-content: space-between;
 }
 
 
